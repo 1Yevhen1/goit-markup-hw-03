@@ -332,7 +332,8 @@ img {
 
 .contact-info {
     display: flex;
-    margin-left: 40px;
+    gap: 40px;
+    margin-left: 332px;
 }
 
 /* first section */
@@ -434,6 +435,7 @@ img {
 
 .section-portfolio {
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .header-our-potfolio {
@@ -471,20 +473,13 @@ img {
 /* footer */
 
 .footer {
-    height: 314px;
-    padding: 100px 0;
-}
-
-.href-footer {
-    display: inline-block;
-    margin-bottom: 16px;
+    padding: 100px 0;    
 }
 
 .under-title {
-    display: flex;
-    flex-direction: row;
-    padding-top: 100px;
-    padding-bottom: 16px;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-right: 1169px;
 }
 
 .footer-text {
