@@ -93,6 +93,7 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 
 .gmail:focus {
@@ -294,9 +295,10 @@ img {
 }
 
 .container {
-    max-width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 /* header flex */
@@ -309,13 +311,18 @@ img {
     display: flex;
     width: 1158px;
     margin: 0 auto;  
-    padding: 0 15px;          
+    padding: 0 15px;
+    align-items: center;          
  }    
  .nav-all {
     display: flex;
     align-items: center;
+    margin-right: auto;
  }
 
+.nav-list a {
+    display: block;
+} 
 
 .nav-all .upper-title {
     margin-right: 76px;
@@ -333,7 +340,6 @@ img {
 .contact-info {
     display: flex;
     gap: 40px;
-    margin-left: 332px;
 }
 
 /* first section */
@@ -468,8 +474,6 @@ img {
 .portfolio-list p {
     display: flex;
     flex-direction: row;
-    padding-top: 8px;
-    margin-bottom: 32px;
 }
 
 /* footer */
@@ -478,10 +482,13 @@ img {
     padding: 100px 0;    
 }
 
+.footer .container {
+    text-align: left;
+}
+
 .under-title {
     display: inline-block;
     margin-bottom: 16px;
-    margin-right: 1169px;
 }
 
 .footer-text {
