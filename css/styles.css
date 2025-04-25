@@ -281,7 +281,7 @@ ul {
 
 /* ------------------container------------------ */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p  {
     margin: 0;
 }
 
@@ -400,11 +400,6 @@ img {
     margin-bottom: 8px;
 }
 
-.content-list p {
-    margin-top: 8px;
-    margin-bottom: 120px;
-}
-
 /* third section */
 
 .our-team-section {
@@ -432,11 +427,6 @@ img {
 .team-list h3 {
     text-align: center;
     margin-bottom: 8px;
-}
-
-.team-list p {
-    margin-top: 8px;
-    margin-bottom: 120px;
 }
 
 /* four section */
